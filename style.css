@@ -91,4 +91,11 @@ body {
   .heading {
     font-size: 20px;
   }
+
+  .price {
+    padding: 10px 20px;
+    margin: 0px 5px;
+    transition: all 300ms ease;
+    border-radius: 10px;
+  }
 }
