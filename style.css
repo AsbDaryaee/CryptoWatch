@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  background-color: lightcyan;
+  color: darkgreen;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  width: 85%;
+  max-width: 600px;
+  text-align: center;
+  font-size: 13px;
+  transition: all 300ms ease;
+}
+
+.container:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: all 300ms ease;
+}
+
+.heading {
+  margin: 10px;
+}
+
+.price img {
+  width: 60px;
+}
+
+.price-container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.price {
+  padding: 10px 20px;
+  margin: 0px 15px;
+  transition: all 300ms ease;
+  border-radius: 10px;
+}
+
+.price:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease;
+}
+
+.btn {
+  background-color: darkcyan;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.btn:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transition: all 500ms ease;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.error {
+  margin-top: 0.5rem;
+  color: darkred;
+  font-size: smaller;
+}
+
+@media only screen and (max-width: 428px) {
+  body {
+    display: flex;
+    min-height: 70%;
+    min-width: 85%;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .heading {
+    font-size: 23px;
+  }
+}
